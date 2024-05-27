@@ -1,6 +1,41 @@
-@media (min-width: 1024px) {
+
+.navbar {
+    background-color: var(--black);
+    height: 40px;
+    line-height: 40px;
+}
+.navbar nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar nav ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+.navbar nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+}
+
+@media (max-width: 600px) {
   body {
-    background: var(--green);
+    background: var(--purple);
     color: var(--white);
   }
+}
+@media (min-width: 600px) {
+    body {
+      background: var(--orange);
+      color: var(--black);
+    }
+}
+@media (min-width: 1024px) {
+    body {
+      background: var(--green);
+      color: var(--white);
+    }
 }

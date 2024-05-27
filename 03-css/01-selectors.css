@@ -6,6 +6,7 @@
   --royalblue: #4169e1;
   --teal: #008080;
   --violet: #9400d3;
+  --green: #00d335;
 }
 
 /* Use attribute selectors for the first part of the exercise */
@@ -13,9 +14,33 @@
 li[class] {
   color: var(--red);
 }
+li[class$="og"] {
+    color: var(--darkmagenta);
+}
+li[id] {
+    color: var(--teal);
+}
+li[class="parrot"] {
+    color: var(--green);
+}
+li[class*=" "] {
+    color: var(--royalblue);
+}
+li[class*="key"] {
+    color: var(--royalblue);
+}
 
 /* Use descendant, child, and sibling selectors for the second part */
 
-section li {
+div li:not(li[class="first"] ~ li){
   color: var(--green);
+}
+li[class="first"] + li{
+    color: var(--darkmagenta);
+}
+li[class="second"] + li{
+    color: var(--royalblue);
+}
+li[class="first"] ~ li:not([class]) + li{
+    color: var(--darkmagenta);
 }
