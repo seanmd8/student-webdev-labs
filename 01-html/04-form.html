@@ -8,8 +8,46 @@
   </head>
   <body>
     <main>
+        <h1>Form</h1>
       <form action="/submit">
-        <!-- Add your code here -->
+        <div style="display: block;">
+            <label for="name">Name:</label>
+            <input id="name" type="text" placeholder="Full Name"/>
+        </div>
+        <div style="display: block;">
+            <label for="email">Email:</label>
+            <input id="email" type="text" placeholder="name@pdx.edu"/>
+        </div>
+        <br>
+        <fieldset style="width: 600px;">
+            <legend>Favorite Character: </legend>
+            <div style="display: block;">
+                <input name="fav-char" id="spongebob" type="radio" />
+                <label for="spongebob">Spongebob</label>
+            </div>
+            <div style="display: block;">
+                <input name="fav-char" id="sandy" type="radio" />
+                <label for="sandy">Sandy</label>
+            </div>
+            <div style="display: block;">
+                <input name="fav-char" id="patrick" type="radio" />
+                <label for="patrick">Patrick</label>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset style="width: 600px">
+            <legend>Are you a fan of the show?</legend>
+            <div style="display: block;">
+                <input name="fav-char" id="watcher" type="checkbox" />
+                <label for="watcher">Yes, I have watched all the episodes!</label>
+            </div><div style="display: block;">
+                <input name="fav-char" id="memes" type="checkbox" />
+                <label for="memes">Yes, it's got the best memes.</label>
+            </div>  
+        </fieldset>
+        <br>
+        <button>Submit</button>
+        <button>Reset</button>
       </form>
     </main>
   </body>
