@@ -6,6 +6,18 @@
   grid-area: article;
 }
 
+.section {
+    grid-area: section;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.footer {
+    grid-area: footer;
+}
+
 .grid-container {
   display: grid;
   height: 97vh;
@@ -22,3 +34,41 @@
     'aside'
     'footer';
 }
+
+/*Area container 1 styling*/
+.grid-container-1{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 10px;
+    grid-template-areas:
+      'header  header  header  header'
+      'aside   article article article'
+      'aside   article article article'
+      'aside   article article article'
+      'section section section section'
+      'section section section section'
+      'footer  footer  footer  footer';
+}
+
+
+/*Area container 2 styling*/
+.grid-container-2{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 10px;
+    width: 60%;
+    grid-template-areas:
+      'header  header  header  header'
+      'article article article aside'
+      'article article article aside'
+      'article article article aside'
+      'section section section section'
+      'section section section section'
+      'footer  footer  footer  footer';
+}
+
+/*Area container 3 styling*/
+.grid-container-3{
+    width: 33%;
+}
+
