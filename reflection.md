@@ -17,7 +17,7 @@ Enter your reflections on this section here.
 - I did manage to complete these on my own.
 - The position and media queries excercises focused on concepts it was super useful to know. I actually found the HW 2 selectors game to be super helpful for completing this one.
 - I could maybe have used a bit more on positioning, but I think the excercise helped me get used to it a lot more.
-- Maybe a bit more explanation on whether it's better practice to give every '<p>' in a div a class versus giving the div a class and styling them via '.div-class p' rather than '.p-class'.
+- Maybe a bit more explanation on whether it's better practice to give every 'p' in a div a class versus giving the div a class and styling them via '.div-class p' rather than '.p-class'.
 
 ### Lab 04-flexbox
 - I did manage to do this one myself, though I looked at the example code linked at the end of the slides.
@@ -29,7 +29,7 @@ Enter your reflections on this section here.
 - I found this to be super intuitive once I got the hang of it so I did it myself.
 - They were both pretty equal in helping me to learn stuff.
 - It was a bit unclear what to do in the grid areas section. I ended up copying the grid container to make 3 of them since it gave 3 pictures, but I later realized it might have been wanting the once it gave to be changed depending on screen size?
--Seemed like it gave good coverage.
+- Seemed like it gave good coverage.
 
 ### Lab 06-bootstrap
 - I didn't start this one for a while since the screenshots for what our output should look like had the wrong link (an extra ../) which meant it looked like they were just missing. I kept forgetting to ask about it in class and then only realized the pictures were actually there, just linked wrong, a little before the labs were due. 
