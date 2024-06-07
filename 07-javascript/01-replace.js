@@ -1,9 +1,11 @@
 const replaceItems = (input) => {
   // return a string with 'gold' replaced by 'SHINY' and 'wander' replaced by 'roam', regardless of the case of the letters
-
+  var regex_gold = /[gG][oO][lL][dD]/;
+  var regex_wander = /[wW][aA][nN][dD][eE][rR]/;
   // for reference, see the MDN "Regular Expressions" entry:
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
-
+  input = input.replace(regex_gold, `SHINY`);
+  input = input.replace(regex_wander, `roam`);
   return input;
 };
 
